@@ -1,0 +1,4 @@
+SELECT * FROM information_schema.TABLES WHERE TABLE_TYPE = 'BASE TABLE' and TABLE_SCHEMA = 'Person'
+SELECT * FROM information_schema.COLUMNS WHERE (TABLE_NAME = 'Employee' AND TABLE_CATALOG = 'AdventureWorks2012' ) ORDER BY ORDINAL_POSITION
+
+
